@@ -1,45 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Four card feature section</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <title>Frontend Mentor | Four card feature section</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/reset.css/reset.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
-
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
-
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+<header>
+    <h1>
+        <p class="lighter-header">Reliable, efficient delivery</p>
+        <p class="bolder-header">Powered by Technology</p>
+    </h1>
+    <p>
+        Our Artificial Intelligence powered tools use millions of project data points
+        to ensure that your project is successful
     </p>
-  </footer>
+</header>
+<main>
+    <div class="supervisor-wrapper">
+        <article class="card supervisor">
+            <section>
+                <h2 class="card-header">
+                    Supervisor
+                </h2>
+                <p class="card-description">
+                    Monitors activity to identify project roadblocks
+                </p>
+            </section>
+            <figure>
+                <img src="images/icon-supervisor.svg" alt="Loupe icon for supervisor part">
+            </figure>
+        </article>
+    </div>
+    <div class="cards-wrapper">
+        <div class="cards-wrapper-team-karma">
+            <article class="card team-builder">
+                <section>
+                    <h2 class="card-header">
+                        Team Builder
+                    </h2>
+                    <p class="card-description">
+                        Scans our talent network to create the optimal team for your project
+                    </p>
+                </section>
+                <figure>
+                    <img src="images/icon-team-builder.svg" alt="House icon for team builder part">
+                </figure>
+            </article>
+            <article class="card karma">
+                <section>
+                    <h2 class="card-header">
+                        Karma
+                    </h2>
+                    <p class="card-description">
+                        Regularly evaluates our talent to ensure quality
+                    </p>
+                </section>
+                <figure>
+                    <img src="images/icon-karma.svg" alt="Bulb icon for karma part">
+                </figure>
+            </article>
+        </div>
+        <div class="cards-wrapper-calculator">
+            <article class="card calculator">
+                <section>
+                    <h2 class="card-header">
+                        Calculator
+                    </h2>
+                    <p class="card-description">
+                        Uses data from past projects to provide better delivery estimates
+                    </p>
+                </section>
+                <figure>
+                    <img src="images/icon-calculator.svg" alt="Computer icon for calculator part">
+                </figure>
+            </article>
+        </div>
+    </div>
+</main>
+<footer>
+</footer>
 </body>
 </html>
