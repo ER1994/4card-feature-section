@@ -35,6 +35,7 @@ html {
     color: var(--grey-500);
     display: flex;
     justify-content: center;
+    align-content: center;
 }
 
 body {
