@@ -148,7 +148,7 @@ main {
         width: 540px;
     }
 
-    .lighter-header {
+    h1 {
         font: var(--text-preset2-big);
         letter-spacing: var(--spacing-025);
     }
