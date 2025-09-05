@@ -44,6 +44,7 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+
 header {
     display: flex;
     flex-direction: column;
@@ -53,7 +54,7 @@ header {
     width: 19.75rem;
 }
 
-.lighter-header {
+h1 {
     font: var(--text-preset2-small);
     letter-spacing: var(--spacing-025);
 }
