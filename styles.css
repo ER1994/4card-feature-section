@@ -146,6 +146,16 @@ main {
         width: 540px;
     }
 
+    .lighter-header {
+        font: var(--text-preset2-big);
+        letter-spacing: var(--spacing-025);
+    }
+
+    .bolder-header {
+        font: var(--text-preset1-big);
+        letter-spacing: var(--spacing-025);
+    }
+
     .cards-wrapper-team-karma {
         flex-direction: row;
     }
