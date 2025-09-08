@@ -125,7 +125,7 @@ main {
 
 .card > section {
     width: 250px;
-    flex: 0 0 75px;
+    /*max-height: 75px;*/
     display: flex;
     flex-direction: column;
     gap: var(--spacing-6);
