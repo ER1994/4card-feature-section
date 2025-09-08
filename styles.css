@@ -103,8 +103,8 @@ main {
     gap: var(--spacing-400);
     box-shadow: 0 15px 30px -11px rgb(131 166 210 / 0.5);
     border-radius: var(--spacing-100);
-    flex: 0 1 calc(250px - 2 * 4px - 2* 32px);
-    max-height: calc(250px - 2 * 4px - 2* 32px);
+    flex: 1 1 calc(314px - 2 * 4px - 2* 32px);
+    height: calc(250px - 2 * 4px - 2* 32px);
 }
 
 .supervisor {
