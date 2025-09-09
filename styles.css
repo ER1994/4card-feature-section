@@ -128,7 +128,7 @@ main {
 
 .card > section {
     width: 250px;
-    max-height: 75px;
+    /*max-height: 75px;*/
     display: flex;
     flex-direction: column;
     gap: var(--spacing-6);
@@ -190,7 +190,7 @@ main {
     }
 
     .card > section {
-        /*width: 286px;*/
+        width: 286px;
     }
 
 }
