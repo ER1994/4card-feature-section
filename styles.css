@@ -128,10 +128,11 @@ main {
 
 .card > section {
     width: 250px;
-    /*max-height: 75px;*/
+    max-height: 75px;
     display: flex;
     flex-direction: column;
     gap: var(--spacing-6);
+    flex-grow: 1;
 }
 
 .card-header {
