@@ -148,6 +148,7 @@ main {
 .card > figure {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-between;
 }
 
 @media (min-width: 786px) {
